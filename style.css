@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    background: linear-gradient(#927a99 0%, #ab4513 100%);
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 120px;
+    transition: transform 2s;
+    border: 10px solid #AAAAAA;
+    height: 150px;
+
+}
+
+p {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+#Intoduction {
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: darkblue;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+
+.article.hover {
+    color: hotpink;
+}
+
+a {
+    color: darkorchid;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+img: hover{
+    transform: scale(0.9);
+}
+#Writings a
+{
+    text-shadow: none!important;
+    text-decoration: underline!important;
+    color: blue!important;
+}
+#Contacts{
+    background: firebrick;
+}
+.Contact_1 h3{
+  display: inline;
+}
+.Contact_1 a
+{
+ color: white;
+    text-shadow: none;
+}
+#Contacts iframe{
+    width: 100%;
+}
